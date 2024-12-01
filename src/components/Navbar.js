@@ -1,11 +1,15 @@
+// src/components/Navbar.js
+
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css'; // Create this file for Navbar-specific styles
+import './Navbar.css';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <img src="/logo.jpg" alt="Tuscan Money Logo" className="logo" />
+      <Link to="/" aria-label="Go to Home Page">
+        <img src="/logo.jpg" alt="Tuscan Money Logo" className="logo" />
+      </Link>
       <ul className="nav-links">
         <li><Link to="/music-distribution">Music Distribution</Link></li>
         <li><Link to="/strategic-litigation">Strategic Litigation</Link></li>

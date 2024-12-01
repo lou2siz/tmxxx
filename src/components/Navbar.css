@@ -1,5 +1,6 @@
 /* src/components/Navbar.css */
 
+/* Navbar container */
 .navbar {
   display: flex;
   align-items: center;
@@ -7,26 +8,49 @@
   padding: 10px 20px;
 }
 
+/* Logo link styling */
+.navbar a {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Removes underline from links */
+}
+
+.navbar a:hover {
+  opacity: 0.8; /* Optional hover effect on logo link */
+}
+
+.navbar a:focus {
+  outline: none; /* Removes default focus outline */
+}
+
+/* Logo image styling */
 .logo {
   height: 50px;
   margin-right: auto;
+  display: block; /* Ensures proper display within the link */
 }
 
+/* Navigation links container */
 .nav-links {
   list-style: none;
   display: flex;
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
 }
 
+/* Individual navigation link item */
 .nav-links li {
   margin-left: 20px;
 }
 
+/* Navigation link styling */
 .nav-links a {
   color: #FFFFFF;
   font-size: 18px;
   font-family: 'Lora', serif;
+  text-decoration: none; /* Removes underline from links */
 }
 
 .nav-links a:hover {
-  color: #C5B358;
+  color: #C5B358; /* Vegas gold accent on hover */
 }
