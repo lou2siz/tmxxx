@@ -1,0 +1,14 @@
+/* src/pages/Home.css */
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 140px); /* Adjust based on header and footer height */
+  }
+  
+  .home-logo {
+    max-width: 80%;
+    height: auto;
+  }
+  

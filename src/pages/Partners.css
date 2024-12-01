@@ -1,0 +1,24 @@
+.partners {
+    text-align: center;
+  }
+  
+  .partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .partner {
+    margin: 20px;
+  }
+  
+  .partner img {
+    height: 100px;
+    width: auto;
+  }
+  
+  .partner p {
+    margin-top: 10px;
+    color: #FFFFFF;
+  }
+  

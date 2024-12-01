@@ -1,0 +1,51 @@
+/* src/App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display:wght@700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Lora', serif;
+  background-color: #000000; /* Black background */
+  color: #FFFFFF; /* White text */
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #C5B358; /* Vegas gold accents */
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+a {
+  color: #C5B358;
+  text-decoration: none;
+  font-family: 'Lora', serif;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.nav-links a {
+  color: #FFFFFF;
+  font-family: 'Lora', serif;
+}
+
+.nav-links a:hover {
+  color: #C5B358;
+}
