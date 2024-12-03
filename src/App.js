@@ -4,10 +4,10 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import MusicDistribution from './pages/MusicDistribution';
-import StrategicLitigation from './pages/StrategicLitigation';
 import Partners from './pages/Partners';
 import News from './pages/News';
 import Shop from './pages/Shop';
+import LitigationFinance from './pages/LitigationFinance';
 import './App.css'; // Main styles
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
             <Route path="/partners" element={<Partners />} />
             <Route path="/news" element={<News />} />
             <Route path="/shop" element={<Shop />} />
+            <Route path="/litigation-finance" element={<LitigationFinance />} />
           </Routes>
         </div>
         <Footer />

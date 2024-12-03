@@ -1,12 +1,12 @@
 import React from 'react';
 
-const StrategicLitigation = () => {
+const LitigationFinance = () => {
   return (
     <div className="content">
-      <h1>Strategic Litigation</h1>
+      <h1>Litigation Finance</h1>
       <p>
         Tuscan Money empowers individuals to demand government accountability through
-        CPRA requests and class action lawsuits through strategic litigation.
+        CPRA requests and class action lawsuits through LitigationFinance.
       </p>
       <p>
         Named after Tuscany, a region associated with the Renaissance and intellectual
@@ -29,4 +29,4 @@ const StrategicLitigation = () => {
   );
 };
 
-export default StrategicLitigation;
+export default LitigationFinance;
