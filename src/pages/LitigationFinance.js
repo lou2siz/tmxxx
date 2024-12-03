@@ -6,7 +6,7 @@ const LitigationFinance = () => {
       <h1>Litigation Finance</h1>
       <p>
         Tuscan Money empowers individuals to demand government accountability through
-        CPRA requests and class action lawsuits through LitigationFinance.
+        CPRA requests and class action lawsuits through Litigation Finance.
       </p>
       <p>
         Named after Tuscany, a region associated with the Renaissance and intellectual
