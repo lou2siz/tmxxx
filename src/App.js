@@ -8,7 +8,7 @@ import Partners from './pages/Partners';
 import News from './pages/News';
 import Shop from './pages/Shop';
 import LitigationFinance from './pages/LitigationFinance';
-import './App.css'; // Main styles
+import './App.css';
 
 function App() {
   return (
@@ -19,11 +19,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/music-distribution" element={<MusicDistribution />} />
-            <Route path="/strategic-litigation" element={<StrategicLitigation />} />
+            <Route path="/litigation-finance" element={<LitigationFinance />} />
             <Route path="/partners" element={<Partners />} />
             <Route path="/news" element={<News />} />
             <Route path="/shop" element={<Shop />} />
-            <Route path="/litigation-finance" element={<LitigationFinance />} />
           </Routes>
         </div>
         <Footer />
