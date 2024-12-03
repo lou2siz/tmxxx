@@ -32,8 +32,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/strategic-litigation" onClick={closeMobileMenu}>
-              Strategic Litigation
+            <Link to="/litigation-finance" onClick={closeMobileMenu}>
+              Litigation Finance
             </Link>
           </li>
           <li>
