@@ -21,7 +21,7 @@ const LitigationFinance = () => {
         of a legal case, which typically consists of attorney fees and filing costs.
       </p>
       <p>
-        Tuscan Money sets up Non-Recourse Loans; Essentially, putting up capital for lawsuits
+        Tuscan Money sets up Non-Recourse Loans. Essentially, putting up capital for lawsuits
         for a share of legal fees and settlement fees. This helps companies ethically fund lawsuits that benefit
         the general population.
       </p>
